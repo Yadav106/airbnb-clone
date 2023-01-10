@@ -1,0 +1,63 @@
+.card {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 71.6%;
+    margin-bottom: 20px;
+    display: grid;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.card--image {
+    border-radius: 20px;
+    width: 265px;
+}
+
+.card--rating {
+    display: flex;
+}
+
+.card--star {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    height: 15px;
+}
+
+#stars {
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#rating {
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #918E9B;
+}
+
+#country {
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #918E9B;
+}
+
+.card--title {
+    margin: 0;
+    margin-left: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card--price {
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px skyblue;
+}
