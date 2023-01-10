@@ -16,6 +16,7 @@ function App() {
         location={x.location}
         title={x.title}
         price={x.price}
+        openSpots={x.openSpots}
       />
     )
   })
