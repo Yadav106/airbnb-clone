@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import MyComponent from './components/MyComponent'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <MyComponent />
+      <Hero />
     </div>
   )
 }
