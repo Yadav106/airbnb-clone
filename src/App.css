@@ -1,0 +1,8 @@
+.cards--list {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}

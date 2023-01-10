@@ -6,22 +6,26 @@ import Navbar from './components/Navbar'
 import data from './data'
 
 function App() {
+  const cards = data.map(x => {
+    return (
+      <Card 
+        key={x.id}
+        img={x.coverImg}
+        stars={x.stats.rating}
+        rcount={x.stats.reviewCount}
+        location={x.location}
+        title={x.title}
+        price={x.price}
+      />
+    )
+  })
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      {data.map(x => {
-        return (
-          <Card 
-            img={x.coverImg}
-            stars={x.stats.rating}
-            rcount={x.stats.reviewCount}
-            location={x.location}
-            title={x.title}
-            price={x.price}
-          />
-        )
-      })}
+      <div className='cards--list'>
+        {cards}
+      </div>
     </div>
   )
 }

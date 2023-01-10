@@ -1,10 +1,4 @@
-.card {
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 71.6%;
-    margin-bottom: 20px;
-    display: grid;
-    background-color: aqua;
+.card{
     border-radius: 20px;
 }
 
