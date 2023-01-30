@@ -16,7 +16,7 @@ export default function Card(props) {
             <div className="card--rating">
                 <img src={star} className='card--star'/>
                 <p id="stars">{props.stars}</p>
-                <p id="rating">({props.rcount}).</p>
+                <p id="rating">({props.rcount})</p>
                 <p id="country">{props.location}</p>
             </div>
             <p className="card--title">{props.title}</p>
